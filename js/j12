@@ -1,0 +1,33 @@
+console.log(1); // ВЫвод сообщения в консоль
+alert(1); // Вывод предупржедающего сообщения
+let number = 5;// let- коробочка 
+const leftBorderWidth = 1; 
+number=10;
+/*jshint globalstrict:true */
+"use strict";
+
+const persone = '6'; // string
+
+const bool = false; // boolean
+
+console.log(faff) // null
+
+let und;
+console.log(und);// undefined
+
+
+const obj = {
+    name: "Jony",
+    age: 25,
+    isMarried: false
+};
+
+console.log(obj.age);
+
+console.log(obj ["age"] );
+
+alert("hello"); // всплывающее окно
+const result = confirm("Are you here?"); // Вариванты ответа true or false
+
+const answer = prompt("Вам есть 18?", "18");// 18 это placeholder, тип данных - строка
+console.log(typeof(answer));
