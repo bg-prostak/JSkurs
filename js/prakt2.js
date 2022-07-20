@@ -23,7 +23,7 @@ const personalMovieDB = {
 };
 for (let i =0; i<numberOfFilms; i++ ){
     const film = prompt('Какой фильм вы посмотрели?' , '') 
-    if (film.length>=10 || film.length == null ){
+    if (film.length>=10 || film == null ){
         console.log("Введите корректное название");
         i--;
         continue;
@@ -39,3 +39,6 @@ if (personalMovieDB.count < 10){
 }else {console.log("Много");}}
 
 console.log(personalMovieDB);
+const test = "px12.2";
+console.log(parseInt(test)) // 12 - переводит число в другую систему счисления
+console.log(parseFloat(test)) // 12.2 
