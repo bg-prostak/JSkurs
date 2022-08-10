@@ -7,9 +7,32 @@
 // console.log(typeof(answer));
 
 
-const answers = [];
-answers[0] = prompt('Как ваще имя?' , '');
-answers[1] = +prompt('Сколько вам лет?' , '');
-answers[2] = prompt('Кто вы по жизни?' , '');
+function first(){
+    setTimeout(function(){
+        console.log(1);
+    }, 500);
+}
+function second(){
+    console.log(2);
+}
+function learnJS(lang, callback){
+    console.log(`Я учу: ${lang}`);
+    callback();
+}
+learnJS('Javascript', function(){
+    console.log('Я прошел этот урок!')});
+let str = "some";
+let strObj = new String(str);
 
-document.write(answers);
+console.log(typeof(str));
+console.log(typeof(strObj));
+
+console.dir([1,2,3]);
+
+const soldier = {   // прототип
+    health: 400,
+    armor:100
+};
+
+
+const jonh = Object.create(soldier);

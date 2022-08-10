@@ -39,6 +39,3 @@ if (personalMovieDB.count < 10){
 }else {console.log("Много");}}
 
 console.log(personalMovieDB);
-const test = "px12.2";
-console.log(parseInt(test)) // 12 - переводит число в другую систему счисления
-console.log(parseFloat(test)) // 12.2 
